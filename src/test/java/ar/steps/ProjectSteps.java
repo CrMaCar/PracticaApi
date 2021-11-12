@@ -23,7 +23,7 @@ public class ProjectSteps extends PageSteps {
 
     @And("un id workspace valido")
     public void unIdWorkspaceValido() {
-        BaseService.ID_WORKSPACE.set("616dc9e0747e1a1f68147c87");
+        BaseService.ID_WORKSPACE.set("618c041c4e912e504bd06b1f");
     }
 
     @And("guardo el id del proyecto")

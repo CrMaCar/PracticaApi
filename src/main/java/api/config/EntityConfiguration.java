@@ -11,6 +11,13 @@ public enum EntityConfiguration {
         }
 
     },
+    TIMEENTRY {
+        @Override
+        public Class<?> getEntityService() {
+            return TimeEntryService.class;
+        }
+
+    },
     RESPONSE_HEADERS {
         @Override
         public Class<?> getEntityService() {
